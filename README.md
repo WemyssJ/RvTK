@@ -119,7 +119,7 @@ RvTK requires:
 
 # Screenshots
 
-![RvTK Ribbon](images/RvTK-Ribbon-Snapshot.png)
+![RvTK Ribbon](images/RvTK-Ribbon-Snapshot2.png)
 
 ---
 
