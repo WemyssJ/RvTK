@@ -167,8 +167,6 @@ No additional configuration is required for a standard installation.
 
 Administrator permissions may be required depending on your organisation's security settings.
 
----
-
 ## Updating RvTK
 
 To update to the latest version:
@@ -180,9 +178,7 @@ To update to the latest version:
 
 The latest version will replace the previous installation while maintaining existing configuration settings.
 
----
-
-# Uninstalling RvTK
+## Uninstalling RvTK
 
 RvTK includes a dedicated uninstaller that allows users to remove the add-in and manage stored configuration settings.
 
@@ -265,8 +261,9 @@ Currently focused on:
 
 ## Next Steps
 
+- [ ] Expand external beta testing and welcome feedback from additional Revit users
 - [ ] Continue expanding BIM management and productivity workflows
-- [ ] Develop specialised tools for additional AEC disciplines
+- [ ] Develop specialised tools for architectural, MEP, structural, and other AEC disciplines
 - [ ] Enhance organisation-wide deployment and configuration management
 - [ ] Expand quality assurance and BIM standards workflows
 - [ ] Continue compatibility testing across future Autodesk Revit releases
