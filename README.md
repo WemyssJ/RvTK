@@ -10,6 +10,18 @@ A C# Autodesk Revit add-in focused on BIM management, quality assurance, and pro
 
 ---
 
+## Compatibility
+
+RvTK is developed to support:
+
+* Autodesk Revit 2023
+* Autodesk Revit 2024
+* Autodesk Revit 2025
+* Autodesk Revit 2026
+* Autodesk Revit 2027
+
+---
+
 ## Overview
 
 RvTK brings together the tools and workflows that BIM professionals use every day, helping reduce repetitive tasks, improve consistency, and make working in Revit more efficient.
@@ -57,6 +69,20 @@ RvTK includes comprehensive configuration options designed for BIM Managers to m
 This allows companies to tailor RvTK to suit their own workflows, standards, and project requirements, ensuring teams have consistent access to the tools and settings they need.
 
 Configuration options can be managed centrally and distributed to users, helping improve consistency, support BIM standards, and simplify deployment across project teams.
+
+---
+
+## Development & Community
+
+RvTK is actively being developed, and feedback from users is an important part of shaping the future direction of the toolkit.
+
+If there is a specific tool, workflow improvement, or feature that would help your team, please submit a request through the inbuilt feedback button. While not every request can be guaranteed, suggestions will be reviewed and considered for future development.
+
+During the development phase, RvTK will remain free to use.
+
+RvTK will not suddenly become a paid product without prior notice. If the project transitions to a paid version in the future, users will be informed in advance.
+
+Any future pricing will aim to be realistic, fair, and affordable, ensuring RvTK remains accessible to BIM professionals and teams while supporting continued development.
 
 ---
 
