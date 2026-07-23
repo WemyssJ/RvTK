@@ -200,9 +200,9 @@ After uninstalling, restart Autodesk Revit to ensure all RvTK components are ful
 
 # Beta Testing & Feedback
 
-During the development phase, RvTK installations include a 45-day evaluation period, allowing users to explore and test available functionality.
+During the development phase, RvTK installations include a 35-day evaluation period, allowing users to explore and test available functionality.
 
-As development continues, evaluation access may be renewed with future releases to allow testers to continue reviewing improvements and providing feedback.
+As development continues, the evaluation access period will be renewed with every fresh installation to allow testers to continue reviewing improvements and providing feedback.
 
 Feedback, bug reports, and feature suggestions are encouraged and can be submitted directly through the **inbuilt feedback button within RvTK**.
 
