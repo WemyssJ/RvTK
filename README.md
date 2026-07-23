@@ -1,20 +1,21 @@
 # RvTK-Releases
 
 🚧 **Currently under active development**
+
 > **Help Shape RvTK:**  
-> RvTK is currently under active development, and user feedback is a key part of shaping its future direction. If you have suggestions, feature requests, or workflows that could be improved, please share your feedback through the inbuilt feedback button or GitHub discussions.
+> User feedback plays an important role in shaping the future direction of RvTK. If you have suggestions, feature requests, or workflow improvements, please share your feedback through the inbuilt feedback button or GitHub discussions.
 
 # **RvTK**
 
 ### BIM Management & Productivity Toolkit for Autodesk Revit
 
-A C# Autodesk Revit add-in focused on BIM management, quality assurance, and productivity. Built by BIM Managers for BIM Managers.
+A C# Autodesk Revit add-in focused on BIM management, quality assurance, and productivity. Developed by BIM Managers, for BIM Managers.
 
 > **Note:** RvTK is an independent third-party add-in for Autodesk Revit. It is not affiliated with, endorsed by, or sponsored by Autodesk.
 >
-> **RvTK** is the codename for the project and is expected to undergo rebranding prior to commercial release.
+> **Project Status:** RvTK is currently the codename for the project and is expected to undergo rebranding prior to commercial release.
 >
-> **Development Disclaimer:** RvTK is currently under active development. While extensive testing and stress testing is carried out to improve stability and reliability, unexpected issues may still occur. Users should take appropriate precautions to protect their work, including maintaining regular backups and verifying results before relying on outputs for project delivery. Use RvTK at your own discretion.
+> **Development Disclaimer:** While extensive testing and stress testing is carried out to improve stability and reliability, unexpected issues may still occur. Users should take appropriate precautions to protect their work, including maintaining regular backups and verifying results before relying on outputs for project delivery. Use RvTK at your own discretion.
 
 ---
 
@@ -26,7 +27,18 @@ RvTK is developed to support:
 * Autodesk Revit 2024
 * Autodesk Revit 2025
 * Autodesk Revit 2026
-* Autodesk Revit 2027 (avaliable, but minimal testing carried out)
+* Autodesk Revit 2027 (limited testing completed)
+
+---
+
+## Requirements
+
+RvTK requires:
+
+* Windows 10/11
+* Autodesk Revit 2023 or newer
+* .NET Framework 4.8 or later
+* A valid Autodesk Revit installation
 
 ---
 
@@ -94,6 +106,10 @@ RvTK is designed to be simple to install and update.
 
 No additional configuration is required for a standard installation.
 
+Administrator permissions may be required depending on your organisation's security settings.
+
+---
+
 ### Updating RvTK
 
 To update to the latest version:
@@ -105,18 +121,39 @@ To update to the latest version:
 
 The latest version will replace the previous installation while maintaining existing configuration settings.
 
+---
+
 ### Uninstalling RvTK
 
-RvTK includes a uninstaller that allows users to remove the add-in and manage stored configuration settings.
+RvTK includes a dedicated uninstaller that allows users to remove the add-in and manage stored configuration settings.
 
 > **Note:** The RvTK uninstaller is located at:
 >
 > ```
 > %appdata%\RvTK\RvTK uinstaller\uninstaller.exe
+> ```
+
+The uninstaller provides three options:
+
+* **Remove Plugin Only** - Removes RvTK add-in files while keeping user configuration settings.
+* **Clear Personal Configuration** - Removes user settings and preferences while keeping the RvTK installation.
+* **Complete Clean Uninstall** - Removes RvTK, including add-in files, configuration files, and stored preferences.
+
+After uninstalling, restart Autodesk Revit to ensure all RvTK components are fully removed.
 
 ---
 
-## Enterprise Deployment
+## Trial Period & Feedback
+
+Each installation of RvTK includes a **45-day trial period**, allowing users to explore and test the available tools.
+
+During the development phase, the trial period will be renewed with each new patch release, ensuring users testing the latest improvements have continued access.
+
+Feedback, bug reports, and feature suggestions are encouraged and can be submitted directly through the **inbuilt feedback button within RvTK**.
+
+---
+
+## BIM Manager Deployment
 
 RvTK includes built-in tools to support organisation-wide deployment and configuration management.
 
@@ -139,20 +176,8 @@ Further deployment options and management features will continue to be developed
 
 RvTK is actively being developed, and feedback from users is an important part of shaping the future direction of the toolkit.
 
-If there is a specific tool, workflow improvement, or feature that would help your team, please submit a request through the inbuilt feedback button. While not every request can be guaranteed, suggestions will be reviewed and considered for future development.
+If there is a specific tool, workflow improvement, or feature that would help your team, please submit a request through the inbuilt feedback button. Suggestions will be reviewed and considered for future development.
 
 During the development phase, RvTK will remain free to use.
 
-RvTK will not suddenly become a paid product without prior notice. When the project transitions to a paid version in the future, users will be informed in advance.
-
-Any future pricing will aim to be realistic, fair, and affordable, ensuring RvTK remains accessible to BIM professionals and teams while supporting continued development.
-
----
-
-## Trial Period & Feedback
-
-Each installation of RvTK includes a **45-day trial period**, allowing users to explore and test the available tools.
-
-During the development phase, the trial period will be renewed with each new patch release, ensuring users testing the latest improvements have continued access.
-
-Feedback, bug reports, and feature suggestions are encouraged and can be submitted directly through the **inbuilt feedback button within RvTK**.
+If RvTK transitions to a paid product in the future, users will receive advance notice. Any future pricing will aim to remain realistic, fair, and accessible for BIM professionals and teams while supporting continued development.
