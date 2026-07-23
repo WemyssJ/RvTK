@@ -30,4 +30,4 @@ During the development phase, the trial period will be renewed with each new pat
 
 Feedback, bug reports, and feature suggestions are encouraged and can be submitted directly through the **inbuilt feedback button within RvTK**.
 
-![RvTK Command Centre](images/toolbar snapshot.png)
+![RvTK Command Centre](images/toolbar-snapshot.png)
