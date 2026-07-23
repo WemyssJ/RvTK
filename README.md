@@ -2,17 +2,17 @@
 
 🚧 **Currently under active development**
 
-### BIM Management & Productivity Toolkit for Autodesk Revit
+### A BIM Management & Productivity Toolkit for Autodesk Revit
 
 A C# Autodesk Revit add-in focused on BIM management, quality assurance, and productivity. Developed by BIM Managers, for BIM Managers.
 
 > **Note:** RvTK is an independent third-party add-in for Autodesk Revit. It is not affiliated with, endorsed by, or sponsored by Autodesk.
 >
-> **Project Status:** RvTK is currently the development name for the product and may undergo branding refinement prior to commercial release.
+> **Project Status:** RvTK is currently the working name for the product and may undergo branding refinement prior to commercial release.
 
 ---
 
-## Development Team
+# Development Team
 
 RvTK is being developed by a two-person team with a combined 35 years of experience across structural engineering, BIM management, and Autodesk Revit workflows.
 
@@ -20,7 +20,21 @@ The project has been created from real-world experience delivering BIM projects 
 
 ---
 
-## Autodesk API Integration
+# Target Users
+
+RvTK is intended for professionals and organisations working with Autodesk Revit, including:
+
+* BIM Managers responsible for standards, workflows, and project delivery
+* Structural engineering teams managing complex Revit models
+* Architectural practices looking to improve modelling efficiency and consistency
+* MEP teams managing coordinated design workflows
+* Design organisations seeking improved automation and quality assurance processes
+
+As development progresses, RvTK aims to support workflows across multiple disciplines within the AEC industry.
+
+---
+
+# Autodesk API Integration
 
 RvTK is developed using the Autodesk Revit API and integrates directly with Autodesk Revit functionality to automate and enhance existing workflows.
 
@@ -29,21 +43,34 @@ The add-in interacts with Revit elements, documents, views, sheets, parameters, 
 * Model management and quality assurance
 * Drawing production and revision workflows
 * Parameter management and data handling
-* BIM standards and compliance workflows
+* BIM standards and information delivery workflows
 * Productivity automation
 * Custom user interface tools and workflow management
 
 ---
 
-## Development Disclaimer
+# Technology Stack
+
+RvTK is developed using:
+
+* C#
+* Autodesk Revit API
+* .NET Framework
+* Windows Presentation Foundation (WPF) for custom user interfaces
+
+The application follows Autodesk Revit API development practices, including transaction-based workflows and Revit's single-threaded application architecture.
+
+---
+
+# Development Disclaimer
 
 RvTK is currently under active development. While extensive testing and validation is carried out to improve stability and reliability, users should validate automated outputs through their normal project quality assurance processes before relying on results for project delivery.
 
 ---
 
-## Compatibility
+# Compatibility
 
-RvTK is developed using the Autodesk Revit API and currently supports:
+RvTK currently supports the following Autodesk Revit versions:
 
 * Autodesk Revit 2023
 * Autodesk Revit 2024
@@ -53,7 +80,7 @@ RvTK is developed using the Autodesk Revit API and currently supports:
 
 ---
 
-## Requirements
+# Requirements
 
 RvTK requires:
 
@@ -77,6 +104,16 @@ Built from real-world project experience, RvTK focuses on practical solutions fo
 * BIM standards and information delivery
 
 The goal is to provide a unified toolkit that helps organisations improve consistency, reduce repetitive manual processes, and deliver projects more efficiently using Autodesk Revit.
+
+---
+
+# Why RvTK Exists
+
+Many Revit users rely on a combination of manual processes, internal scripts, and multiple disconnected tools to complete everyday project tasks.
+
+RvTK aims to bring these workflows together into a single, professionally developed toolkit that improves consistency, reduces repetitive manual work, and helps organisations deliver projects more efficiently.
+
+The project is built from real-world BIM delivery experience, focusing on practical improvements that provide meaningful value to project teams.
 
 ---
 
@@ -106,7 +143,7 @@ This provides a single access point for the tools users rely on most, reducing t
 
 # BIM Manager Configuration
 
-RvTK includes configuration options designed for BIM Managers to manage, customise, and distribute settings across their organisation.
+RvTK includes organisation-level configuration tools designed for BIM Managers to manage, customise, and distribute workflows across project teams.
 
 This allows companies to tailor RvTK to suit their own workflows, standards, and project requirements, ensuring teams have consistent access to the tools and settings they need.
 
@@ -175,6 +212,21 @@ Feedback, bug reports, and feature suggestions are encouraged and can be submitt
 
 ---
 
+# Beta Testing & Feedback
+
+RvTK is currently undergoing active development and testing with the aim of refining workflows before commercial release.
+
+Feedback from experienced Revit users is a key part of development. Users are encouraged to share:
+
+* Workflow challenges
+* Repetitive tasks they would like automated
+* Suggestions for new tools
+* Improvements to existing functionality
+
+Feedback helps prioritise development and ensures future features provide meaningful value to users.
+
+---
+
 # BIM Manager Deployment
 
 RvTK includes built-in tools to support organisation-wide deployment and configuration management.
@@ -202,7 +254,11 @@ Future development plans include:
 * Expansion of BIM management and quality assurance workflows
 * Additional automation tools for BIM professionals
 * Enhanced organisation-wide deployment and configuration management
+* Development of specialised tools and workflows for architectural, MEP, and other design disciplines
+* Collaboration with industry specialists to identify and develop solutions that provide the greatest practical benefit to users across different disciplines
 * Commercial licensing and support options
+
+As RvTK continues to develop, we are actively seeking feedback from professionals across different areas of the AEC industry. Specialists in architecture, MEP, and other disciplines are encouraged to share their workflows, challenges, and suggestions to help shape future tools and ensure RvTK addresses real-world project requirements.
 
 ---
 
@@ -212,6 +268,6 @@ RvTK is actively being developed, and feedback from users is an important part o
 
 If there is a specific tool, workflow improvement, or feature that would help your team, please submit a request through the inbuilt feedback button. Suggestions will be reviewed and considered for future development.
 
-During the development and beta testing phase, RvTK will remain available at no cost to selected testers.
+During the development and beta testing phase, RvTK will remain available at no cost to users participating in testing and feedback.
 
 As RvTK progresses towards commercial release, users will receive advance notice of any future licensing changes. Future pricing will aim to remain realistic, fair, and accessible for BIM professionals and organisations while supporting continued development and ongoing support.
