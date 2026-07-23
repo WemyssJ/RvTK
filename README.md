@@ -25,6 +25,7 @@ The goal is to create a single toolkit that helps Revit users spend less time on
 ---
 
 ![RvTK Command Centre](images/toolbar-snapshot.png)
+![RvTK Command Centre](images/dockable-snapshot.png)
 
 ---
 
