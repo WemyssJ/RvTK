@@ -105,9 +105,12 @@ The latest version will replace the previous installation while maintaining exis
 
 ### Uninstalling RvTK
 
-RvTK includes a dedicated uninstaller that allows users to remove the add-in and manage stored configuration settings.
+RvTK includes a uninstaller that allows users to remove the add-in and manage stored configuration settings.
 
-The uninstaller is located at: %appdata%\RvTK\RvTK uinstaller\uninstaller.exe
+The uninstaller is located at: 
+
+%appdata%\RvTK\RvTK uinstaller\uninstaller.exe
+
 ---
 
 ## Enterprise Deployment
