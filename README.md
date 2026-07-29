@@ -1,3 +1,11 @@
+<p align="right">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="images/autodesk-authorised-developer-logo-rgb-white.png">
+    <source media="(prefers-color-scheme: light)" srcset="images/autodesk-authorised-developer-logo-rgb-black.png">
+    <img alt="Autodesk Authorised Developer" src="images/autodesk-authorised-developer-logo-rgb-black.png" width="220">
+  </picture>
+</p>
+
 # RvTK
 
 🚧 **Currently under active development**
