@@ -2,15 +2,20 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="images/autodesk-authorised-developer-logo-rgb-white.png">
     <source media="(prefers-color-scheme: light)" srcset="images/autodesk-authorised-developer-logo-rgb-black.png">
-    <img alt="Autodesk Authorised Developer" src="images/autodesk-authorised-developer-logo-rgb-black.png" width="220">
+    <img align="right" alt="Autodesk Authorised Developer" src="images/autodesk-authorised-developer-logo-rgb-black.png" width="220">
   </picture>
 </p>
 
-# RvTK
+<h1>
+  RvTK
+</h1>
 
-**A BIM Management & Productivity Toolkit for Autodesk Revit**
+<p><strong>A BIM Management & Productivity Toolkit for Autodesk Revit</strong></p>
+
 
 A C# Autodesk Revit add-in focused on BIM management, quality assurance, and productivity. Developed by BIM Managers, for BIM Managers.
+
+---
 
 ![Status](https://img.shields.io/badge/status-active%20beta-orange)
 ![Revit](https://img.shields.io/badge/Revit-2023--2027-blue)
@@ -21,9 +26,8 @@ A C# Autodesk Revit add-in focused on BIM management, quality assurance, and pro
 >
 > RvTK is in active development and beta testing. Verify automated outputs through your normal project QA process before relying on results for project delivery.
 
-🚧 **Currently under active development**
-
 ---
+
 
 ## Table of Contents
 
