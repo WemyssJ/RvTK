@@ -275,9 +275,11 @@ RvTK has progressed from BIM automation tools into a wider Revit productivity pl
 
 ## Licensing & Commercial Release
 
-RvTK is free during the development and beta testing phase, distributed under a beta evaluation model (see [Beta Testing & Feedback](#beta-testing--feedback)) rather than a standard open-source license — terms of use are provided with the installer.
+RvTK is currently free to download and use, distributed under a beta evaluation model (see [Beta Testing & Feedback](#beta-testing--feedback)) rather than a standard open-source license — terms of use are provided with the installer.
 
-As RvTK progresses towards commercial release, users will get advance notice of licensing changes, pricing, and availability. Pricing will be kept affordable, with the aim that the value returned — hourly rate saved × time saved — vastly outweighs the cost. Testers who contribute meaningful feedback, workflow suggestions, or testing may also be eligible for preferential pricing at launch.
+RvTK's long-term licensing model is not yet finalised. The most likely path is a paid model to help sustain ongoing development, though it may also remain free indefinitely — no decision or timeline has been set.
+
+Should a paid model be introduced, existing users will receive advance notice before any changes take effect, and pricing will remain affordable relative to the time saved. Testers who provide meaningful feedback may also be offered preferential pricing at launch.
 
 ### Requesting Bespoke Tools
 
