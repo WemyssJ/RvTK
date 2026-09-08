@@ -18,7 +18,7 @@ A C# Autodesk Revit add-in focused on BIM management, quality assurance, and pro
 ---
 
 ![Status](https://img.shields.io/badge/status-active%20beta-orange)
-![Revit](https://img.shields.io/badge/Revit-2023--2027-blue)
+![Revit](https://img.shields.io/badge/Revit-2022--2027-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
 ![License](https://img.shields.io/badge/license-beta%20evaluation-lightgrey)
 
@@ -117,6 +117,7 @@ Follows standard Revit API development practices, including transaction-based wo
 
 | Revit Version | Support Status |
 |---|---|
+| 2022 | ✅ Supported |
 | 2023 | ✅ Supported |
 | 2024 | ✅ Supported |
 | 2025 | ✅ Supported |
@@ -128,7 +129,7 @@ Follows standard Revit API development practices, including transaction-based wo
 ## Requirements
 
 - Windows 10/11
-- Autodesk Revit 2023 or newer
+- Autodesk Revit 2022 or newer
 - .NET Framework 4.8 or later
 - A valid Autodesk Revit installation
 
@@ -245,7 +246,7 @@ RvTK has progressed from BIM automation tools into a wider Revit productivity pl
 
 - [x] C# Revit add-in framework
 - [x] Autodesk Revit API integration
-- [x] Multi-version Revit support (2023–2026, initial 2027 testing)
+- [x] Multi-version Revit support (2022–2026, initial 2027 testing)
 - [x] Custom ribbon interface
 - [x] RvTK Command Centre
 - [x] Custom WPF UI framework
