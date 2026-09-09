@@ -165,7 +165,7 @@ This gives a single access point for the tools users rely on most, reducing the 
 
 ### Installation
 
-1. Download the latest RvTK release package.
+1. Download the latest RvTK release package from [GitHub Releases](https://github.com/WemyssJ/RvTK/releases/latest).
 2. Extract the downloaded ZIP file.
 3. Ensure Autodesk Revit is closed.
 4. Run the RvTK installer (`.exe`).
@@ -188,7 +188,11 @@ If none of the above resolves it, contact us via the [feedback button](#beta-tes
 
 ### Updating RvTK
 
-1. Download the latest RvTK release package.
+RvTK checks for new versions automatically and will warn you on Revit startup when one's available for download. Choosing **Download** from that prompt fetches and launches the installer for you — no need to visit GitHub yourself. The prompt can also be dismissed for a set number of days, or permanently, if you'd rather update later.
+
+To update manually instead:
+
+1. Download the latest RvTK release package from [GitHub Releases](https://github.com/WemyssJ/RvTK/releases/latest).
 2. Close Autodesk Revit.
 3. Extract the new ZIP file.
 4. Run the updated RvTK installer (`.exe`).
