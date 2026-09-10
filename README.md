@@ -165,13 +165,13 @@ This gives a single access point for the tools users rely on most, reducing the 
 
 ### Installation
 
-1. Download the latest RvTK release package from [GitHub Releases](https://github.com/WemyssJ/RvTK/releases/latest).
-2. Extract the downloaded ZIP file.
+1. Navigate to the latest RvTK release on [GitHub Releases](https://github.com/WemyssJ/RvTK/releases/latest?utm_source=chatgpt.com).
+2. Download the RvTK installer (`.exe`) from the release assets. For example: `RvTK-Installer_v0.9.5.2_exp2026-10-15.exe`
 3. Ensure Autodesk Revit is closed.
-4. Run the RvTK installer (`.exe`).
+4. Run the RvTK installer.
 5. Open Revit — RvTK will be available.
 
-No additional configuration is required for a standard installation. Administrator permissions may be required depending on your organisation's security settings.
+No additional configuration is required for a standard installation. **Administrator permissions may be required** depending on your organisation's security policies.
 
 #### If installation is blocked (Windows Defender / company policy)
 
