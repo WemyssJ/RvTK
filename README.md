@@ -1,5 +1,3 @@
-Update this to be focused on civil3d and revir:
-
 <p align="right">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="images/autodesk-authorised-developer-logo-rgb-white.png">
