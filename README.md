@@ -1,17 +1,16 @@
-<table width="100%">
-  <tr>
-    <td align="left" valign="top">
-      <img alt="RvTK" src="images/RvTK%20Logo.png" width="260">
-    </td>
-    <td align="right" valign="top">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="images/autodesk-authorised-developer-logo-rgb-white.png">
-        <source media="(prefers-color-scheme: light)" srcset="images/autodesk-authorised-developer-logo-rgb-black.png">
-        <img alt="Autodesk Authorised Developer" src="images/autodesk-authorised-developer-logo-rgb-black.png" width="220">
-      </picture>
-    </td>
-  </tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/autodesk-authorised-developer-logo-rgb-white.png">
+  <source media="(prefers-color-scheme: light)" srcset="images/autodesk-authorised-developer-logo-rgb-black.png">
+  <img align="right" alt="Autodesk Authorised Developer" src="images/autodesk-authorised-developer-logo-rgb-black.png" width="220">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/RvTK-Logo-White.png">
+  <source media="(prefers-color-scheme: light)" srcset="images/RvTK-Logo-Black.png">
+  <img align="left" alt="RvTK" src="images/RvTK-Logo-Black.png" width="200">
+</picture>
+
+<br clear="all">
 
 <p><strong>A BIM Management & Productivity Toolkit for Revit, AutoCAD and Civil 3D</strong></p>
 
