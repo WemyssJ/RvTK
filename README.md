@@ -7,10 +7,14 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/RvTK-Logo-White.png">
   <source media="(prefers-color-scheme: light)" srcset="images/RvTK-Logo-Black.png">
-  <img align="left" alt="RvTK" src="images/RvTK-Logo-Black.png" width="200">
+  <img align="left" alt="RvTK" src="images/RvTK-Logo-Black.png" width="150">
 </picture>
 
 <br clear="all">
+
+&nbsp;
+
+&nbsp;
 
 <p><strong>A BIM Management & Productivity Toolkit for Revit, AutoCAD and Civil 3D</strong></p>
 
