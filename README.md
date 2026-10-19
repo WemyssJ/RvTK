@@ -1,14 +1,17 @@
-<p align="right">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="images/autodesk-authorised-developer-logo-rgb-white.png">
-    <source media="(prefers-color-scheme: light)" srcset="images/autodesk-authorised-developer-logo-rgb-black.png">
-    <img alt="Autodesk Authorised Developer" src="images/autodesk-authorised-developer-logo-rgb-black.png" width="220">
-  </picture>
-</p>
-
-<h1>
-  RvTK &amp; C3TK
-</h1>
+<table width="100%">
+  <tr>
+    <td align="left" valign="top">
+      <img alt="RvTK" src="images/RvTK%20Logo.png" width="260">
+    </td>
+    <td align="right" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="images/autodesk-authorised-developer-logo-rgb-white.png">
+        <source media="(prefers-color-scheme: light)" srcset="images/autodesk-authorised-developer-logo-rgb-black.png">
+        <img alt="Autodesk Authorised Developer" src="images/autodesk-authorised-developer-logo-rgb-black.png" width="220">
+      </picture>
+    </td>
+  </tr>
+</table>
 
 <p><strong>A BIM Management & Productivity Toolkit for Revit, AutoCAD and Civil 3D</strong></p>
 
