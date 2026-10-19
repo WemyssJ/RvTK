@@ -7,23 +7,29 @@
 </p>
 
 <h1>
-  RvTK
+  RvTK &amp; C3TK
 </h1>
 
 <p><strong>A BIM Management & Productivity Toolkit for Revit, AutoCAD and Civil 3D</strong></p>
 
-A C# Autodesk Revit add-in focused on BIM management, quality assurance, and productivity. Developed by BIM Managers, for BIM Managers.
+Two Autodesk add-ins focused on BIM management, quality assurance, and productivity, developed by BIM Managers, for BIM Managers:
+
+- **RvTK** — the toolkit for **Autodesk Revit** (2023–2027).
+- **C3TK** — the companion toolkit for **AutoCAD and Civil 3D** (2023–2027).
+
+Each is installed, versioned and released separately, and the two share the same look, feel and licence.
 
 ---
 
 ![Status](https://img.shields.io/badge/status-active%20beta-orange)
-![Revit](https://img.shields.io/badge/Revit-2022--2027-blue)
+![Revit](https://img.shields.io/badge/Revit-2023--2027-blue)
+![AutoCAD / Civil 3D](https://img.shields.io/badge/AutoCAD%20%2F%20Civil%203D-2023--2027-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
 ![License](https://img.shields.io/badge/license-beta%20evaluation-lightgrey)
 
-> RvTK is an independent third-party add-in for Autodesk Revit — not affiliated with, endorsed by, or sponsored by Autodesk. "RvTK" is a working name and may change before commercial release.
+> RvTK and C3TK are independent third-party add-ins for Autodesk Revit, AutoCAD and Civil 3D — not affiliated with, endorsed by, or sponsored by Autodesk. "RvTK" and "C3TK" are working names and may change before commercial release.
 >
-> RvTK is in active development and beta testing. Verify automated outputs through your normal project QA process before relying on results for project delivery.
+> RvTK and C3TK are in active development and beta testing. Verify automated outputs through your normal project QA process before relying on results for project delivery.
 
 ---
 
@@ -50,7 +56,7 @@ A C# Autodesk Revit add-in focused on BIM management, quality assurance, and pro
 
 ## Quick Start
 
-New to RvTK? Head to [Installation & Updates](#installation--updates) for step-by-step install instructions, including fixes if Windows Defender or company policy blocks the installer. See [Beta Testing & Feedback](#beta-testing--feedback) for how to report issues.
+New to RvTK or C3TK? Head to [Installation & Updates](#installation--updates) for step-by-step install instructions, including fixes if Windows Defender or company policy blocks the installer. See [Beta Testing & Feedback](#beta-testing--feedback) for how to report issues.
 
 ---
 
@@ -58,7 +64,7 @@ New to RvTK? Head to [Installation & Updates](#installation--updates) for step-b
 
 Every undetected modelling error, missed BIM standard, and manual quality assurance check costs time, money, and confidence in project delivery. Repetitive tasks slow teams down, but the greatest cost to most organisations is human error and the rework that follows.
 
-RvTK is a professional Autodesk Revit add-in built to reduce that risk. It brings quality assurance, BIM standards enforcement, workflow automation, and productivity tools together into a single platform, helping teams catch issues before they become costly problems.
+RvTK is a professional Autodesk Revit add-in built to reduce that risk, and C3TK brings the same approach and the same look and feel to AutoCAD and Civil 3D. It brings quality assurance, BIM standards enforcement, workflow automation, and productivity tools together into a single platform, helping teams catch issues before they become costly problems.
 
 By automating repetitive validation and checking tasks, RvTK reduces reliance on manual QA, improves model consistency, and increases confidence in project deliverables — fewer errors, less rework, and more predictable outcomes.
 
@@ -76,7 +82,7 @@ RvTK is developed by a two-person team with over three decades of combined exper
 
 ## Target Users
 
-RvTK is designed for organisations and professionals using Autodesk Revit who want to improve project quality, reduce manual effort, and standardise BIM delivery, including:
+RvTK and C3TK are designed for organisations and professionals using Autodesk Revit, AutoCAD and Civil 3D who want to improve project quality, reduce manual effort, and standardise BIM delivery, including:
 
 - BIM Managers
 - Structural Engineering Teams
@@ -90,7 +96,7 @@ RvTK's roadmap extends this support to further disciplines across the AEC indust
 
 ## Autodesk API Integration
 
-RvTK is built directly on the Autodesk Revit API, allowing it to analyse, validate, and manage Revit data in real time, including:
+RvTK is built directly on the Autodesk Revit API, and C3TK on the AutoCAD and Civil 3D .NET APIs, allowing them to analyse, validate, and manage Revit data in real time, including:
 
 - Quality assurance and model validation
 - BIM standards enforcement
@@ -104,8 +110,8 @@ RvTK is built directly on the Autodesk Revit API, allowing it to analyse, valida
 ## Technology Stack
 
 - C#
-- Autodesk Revit API
-- .NET Framework
+- Autodesk Revit API (RvTK) and AutoCAD / Civil 3D .NET API (C3TK)
+- .NET Framework 4.8 (Revit 2023–2024, AutoCAD 2023–2024) and modern .NET (Revit 2025–2027, AutoCAD 2025–2027)
 - Windows Presentation Foundation (WPF) for custom user interfaces
 
 Follows standard Revit API development practices, including transaction-based workflows and Revit's single-threaded application architecture.
@@ -114,23 +120,38 @@ Follows standard Revit API development practices, including transaction-based wo
 
 ## Compatibility
 
+### RvTK — Autodesk Revit
+
 | Revit Version | Support Status |
 |---|---|
-| 2022 | ✅ Supported |
+| 2022 and earlier | ❌ Not supported |
 | 2023 | ✅ Supported |
 | 2024 | ✅ Supported |
 | 2025 | ✅ Supported |
 | 2026 | ✅ Supported |
-| 2027 | ⚠️ Limited testing |
+| 2027 | ✅ Fully supported |
+
+### C3TK — AutoCAD and Civil 3D
+
+| AutoCAD / Civil 3D Version | Support Status |
+|---|---|
+| 2022 and earlier | ❌ Not supported |
+| 2023 | ✅ Supported |
+| 2024 | ✅ Supported |
+| 2025 | ✅ Supported |
+| 2026 | ✅ Supported |
+| 2027 | ✅ Fully supported |
+
+Revit 2022 support has been dropped. Please stay on an earlier RvTK release if you still need it, or upgrade to Revit 2023 or newer.
 
 ---
 
 ## Requirements
 
 - Windows 10/11
-- Autodesk Revit 2022 or newer
-- .NET Framework 4.8 or later
-- A valid Autodesk Revit installation
+- **RvTK:** Autodesk Revit 2023 or newer (2027 fully supported)
+- **C3TK:** Autodesk AutoCAD or Civil 3D 2023 or newer (2027 fully supported)
+- A valid installation of the Autodesk product you want to use
 
 ---
 
@@ -164,11 +185,15 @@ This gives a single access point for the tools users rely on most, reducing the 
 
 ### Installation
 
-1. Navigate to the latest RvTK release on [GitHub Releases](https://github.com/WemyssJ/RvTK/releases/latest?utm_source=chatgpt.com).
-2. Download the RvTK installer (`.exe`) from the release assets. For example: `RvTK-Installer_v0.9.5.2_exp2026-10-15.exe`
-3. Ensure Autodesk Revit is closed.
-4. Run the RvTK installer.
-5. Open Revit — RvTK will be available.
+RvTK (Revit) and C3TK (AutoCAD / Civil 3D) are separate releases with separate installers. Install whichever you need, or both.
+
+1. Navigate to [GitHub Releases](https://github.com/WemyssJ/RvTK/releases).
+2. Download the installer (`.exe`) from the release assets:
+   - **RvTK (Revit):** the release tagged `vX.Y.Z.W`, installer `RvTK-Installer_vX.Y.Z.W_exp….exe`. For example: `RvTK-Installer_v0.9.6.6_exp2026-11-23.exe`
+   - **C3TK (AutoCAD / Civil 3D):** the release tagged `c3tk-vX.Y.Z.W`, installer `C3TK-Installer_vX.Y.Z.W_exp….exe`. For example: `C3TK-Installer_v0.9.6.6_exp2026-11-23.exe`
+3. Ensure Autodesk Revit (for RvTK) or AutoCAD / Civil 3D (for C3TK) is closed.
+4. Run the installer.
+5. Open Revit, AutoCAD or Civil 3D — the toolkit will be available.
 
 No additional configuration is required for a standard installation. **Administrator permissions may be required** depending on your organisation's security policies.
 
@@ -185,22 +210,21 @@ If the installer is blocked or fails silently, this is usually Windows Defender 
 
 If none of the above resolves it, contact us via the [feedback button](#beta-testing--feedback) or [email](#contact) with a screenshot of the exact block message.
 
-### Updating RvTK
+### Updating RvTK and C3TK
 
-RvTK checks for new versions automatically and will warn you on Revit startup when one's available for download. Choosing **Download** from that prompt fetches and launches the installer for you — no need to visit GitHub yourself. The prompt can also be dismissed for a set number of days, or permanently, if you'd rather update later.
+Each product checks for new versions automatically and will warn you on startup when one's available for download. RvTK only ever offers RvTK releases and C3TK only C3TK releases. Choosing **Download** from that prompt fetches and launches the installer for you — no need to visit GitHub yourself. The prompt can also be dismissed for a set number of days, or permanently, if you'd rather update later.
 
 To update manually instead:
 
-1. Download the latest RvTK release package from [GitHub Releases](https://github.com/WemyssJ/RvTK/releases/latest).
-2. Close Autodesk Revit.
-3. Extract the new ZIP file.
-4. Run the updated RvTK installer (`.exe`).
+1. Download the latest installer for your product from [GitHub Releases](https://github.com/WemyssJ/RvTK/releases) (the newest `vX.Y.Z.W` release for RvTK, or `c3tk-vX.Y.Z.W` for C3TK).
+2. Close Autodesk Revit, AutoCAD and Civil 3D.
+3. Run the updated installer (`.exe`).
 
 The latest version replaces the previous installation while retaining existing configuration settings.
 
-### Uninstalling RvTK
+### Uninstalling RvTK and C3TK
 
-The uninstaller is located at:
+Both appear in Windows **Apps & Features** and can be removed there. RvTK also installs its own uninstaller at:
 
 ```
 %appdata%\RvTK\RvTK uninstaller\uninstaller.exe
@@ -214,7 +238,7 @@ It provides three options:
 | **Clear Personal Configuration** | Removes settings/preferences, keeps installation |
 | **Complete Clean Uninstall** | Removes everything — files, config, preferences |
 
-Restart Autodesk Revit after uninstalling to ensure all components are fully removed.
+Restart Autodesk Revit, AutoCAD or Civil 3D after uninstalling to ensure all components are fully removed.
 
 ---
 
@@ -235,7 +259,7 @@ This helps organisations maintain consistent RvTK settings across teams, standar
 
 ## Beta Testing & Feedback
 
-RvTK installations currently include a **35-day evaluation period**, renewed with every fresh installation while in development, so testers can continue reviewing improvements and providing feedback.
+RvTK and C3TK installations currently include a **35-day evaluation period** (one shared licence for both), renewed with every fresh installation while in development, so testers can continue reviewing improvements and providing feedback.
 
 Feedback, bug reports, and feature suggestions are encouraged via the **inbuilt feedback button within RvTK**, or through the contact details [below](#contact) — including workflow challenges, repetitive tasks worth automating, and tool suggestions.
 
@@ -243,13 +267,14 @@ Feedback, bug reports, and feature suggestions are encouraged via the **inbuilt 
 
 ## Development Roadmap
 
-RvTK has progressed from BIM automation tools into a wider Revit productivity platform focused on everyday AEC workflows.
+RvTK has progressed from BIM automation tools into a wider Revit productivity platform, with C3TK extending it to AutoCAD and Civil 3D, focused on everyday AEC workflows.
 
 ### Completed
 
 - [x] C# Revit add-in framework
 - [x] Autodesk Revit API integration
-- [x] Multi-version Revit support (2022–2026, initial 2027 testing)
+- [x] Multi-version Revit support (2023–2027, with 2027 fully supported; 2022 dropped)
+- [x] C3TK: matching toolkit for AutoCAD and Civil 3D (2023–2027)
 - [x] Custom ribbon interface
 - [x] RvTK Command Centre
 - [x] Custom WPF UI framework
@@ -272,7 +297,7 @@ RvTK has progressed from BIM automation tools into a wider Revit productivity pl
 - [ ] Develop specialised tools for architectural, MEP, structural, and other AEC disciplines
 - [ ] Enhance organisation-wide deployment and configuration management
 - [ ] Deepen QA and BIM standards workflows
-- [ ] Continue compatibility testing across future Revit releases
+- [ ] Continue compatibility testing across future Revit, AutoCAD and Civil 3D releases
 - [ ] Prepare RvTK for commercial release
 
 ---
