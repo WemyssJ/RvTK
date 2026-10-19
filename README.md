@@ -7,34 +7,30 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/RvTK-Logo-White.png">
   <source media="(prefers-color-scheme: light)" srcset="images/RvTK-Logo-Black.png">
-  <img align="left" alt="RvTK" src="images/RvTK-Logo-Black.png" width="150">
+  <img align="left" alt="RvTK" src="images/RvTK-Logo-Black.png" width="180">
 </picture>
 
 <br clear="all">
 
-&nbsp;
+<h3>A BIM Management &amp; Productivity Toolkit for Revit, AutoCAD and Civil 3D</h3>
 
-&nbsp;
+![Status](https://img.shields.io/badge/status-active%20beta-orange?style=for-the-badge)
+![Revit](https://img.shields.io/badge/Revit-2023--2027-blue?style=for-the-badge)
+![AutoCAD / Civil 3D](https://img.shields.io/badge/AutoCAD%20%2F%20Civil%203D-2023--2027-blue?style=for-the-badge)
+![Platform](https://img.shields.io/badge/platform-Windows-lightgrey?style=for-the-badge)
+![License](https://img.shields.io/badge/license-beta%20evaluation-lightgrey?style=for-the-badge)
 
-<p><strong>A BIM Management & Productivity Toolkit for Revit, AutoCAD and Civil 3D</strong></p>
+Quality assurance, BIM standards and productivity tools in one consistent platform — developed by BIM Managers, for BIM Managers.
 
-Two Autodesk add-ins focused on BIM management, quality assurance, and productivity, developed by BIM Managers, for BIM Managers:
-
-- **RvTK** — the toolkit for **Autodesk Revit** (2023–2027).
-- **C3TK** — the companion toolkit for **AutoCAD and Civil 3D** (2023–2027).
+- **RvTK** — the toolkit for **Autodesk Revit** (2023–2027)
+- **C3TK** — the companion toolkit for **AutoCAD and Civil 3D** (2023–2027)
 
 Each is installed, versioned and released separately, and the two share the same look, feel and licence.
 
----
-
-![Status](https://img.shields.io/badge/status-active%20beta-orange)
-![Revit](https://img.shields.io/badge/Revit-2023--2027-blue)
-![AutoCAD / Civil 3D](https://img.shields.io/badge/AutoCAD%20%2F%20Civil%203D-2023--2027-blue)
-![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
-![License](https://img.shields.io/badge/license-beta%20evaluation-lightgrey)
-
+> [!NOTE]
 > RvTK and C3TK are independent third-party add-ins for Autodesk Revit, AutoCAD and Civil 3D — not affiliated with, endorsed by, or sponsored by Autodesk. "RvTK" and "C3TK" are working names and may change before commercial release.
->
+
+> [!WARNING]
 > RvTK and C3TK are in active development and beta testing. Verify automated outputs through your normal project QA process before relying on results for project delivery.
 
 ---
